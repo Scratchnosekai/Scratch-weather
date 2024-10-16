@@ -36,7 +36,7 @@ def send_weather(weather):
     else:
         return -1 
 
-session = scratch3.login("Scratchnosekai_2", password)
+session = scratch3.login("Scratchnosekai_2",password)
 conn = session.connect_cloud("871346881")
 
 def update_weather(city):
